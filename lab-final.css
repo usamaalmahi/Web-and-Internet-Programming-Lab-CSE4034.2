@@ -1,11 +1,70 @@
 body{
-    font-family: sans-serif;
+    font-family: sans-serif;    
+    width: 100%;
+    display: block;
+
 }
-#left-block{
-    width: 58%;
+.first-part{
+    display: inline-block;
+    width: 100%;
+    
+}
+.left-block{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 69%;
     display: inline-block;
 }
-#right-block{
-    width: 38%;
+.right-block{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 29%;
     display: inline-block;
 }
+
+.left-top{
+    padding-top: 0px;
+    padding-bottom: auto;
+    margin-top: 0px;
+}
+.left-bottom{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+a{
+    color:blue;
+    text-decoration: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    text-align: left;    
+}
+.contact{
+    font-weight: bold;
+    display: block;
+}
+.contact div {
+    padding: 8px 0px;
+}
+
+.contact .message input {
+    display: block;
+    width: 95%;
+    height: 30px;
+}
+
+.contact .submit {
+    padding: 8px 4px;
+}
+

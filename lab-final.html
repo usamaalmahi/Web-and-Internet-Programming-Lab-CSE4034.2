@@ -8,47 +8,77 @@
         <header>
         </header>
         <main>
-            <div id="left-block">
-                <div>
-                    <h1>Doggo Pupper</h1>
-                </div>
-                <div>
-                    <h2>About Me</h2>
-                </div>
-                <div>
-                    Hello, I love <a>User Interface Design.</a>
-                </div>
+            <div class="first-part">
 
-                <div>
-                    <div>
-                        <h2>Classes</h2>
-                        <table>
-                            
-                        </table>
+                <div class="left-block">
+                    <div class="left-top">
+                        <div>
+                            <h1>Doggo Pupper</h1>
+                        </div>
+                        <div>
+                            <h2>About Me</h2>
+                        </div>
+                        <div>
+                            Hello, I love <a>User Interface Design.</a>
+                        </div>
+    
                     </div>
-                    <div>
-                        <h2>Contact</h2>
-                        <form action="">
-                            <lable>Email: <input type="email"></lable>
-                            <label>Message: <input type="text"></label>
-                            <input type="submit" value="Submit">
-                        </form>
-
+    
+                    <div class="left-bottom">
+                        <div>
+                            <h2>Classes</h2>
+                            <table>
+                                <tr>
+                                    <th>Course Number</th>
+                                    <th>Course Title</th>
+                                </tr>
+                                <tr>
+                                    <td>Spring 2016</td>
+                                </tr>
+                                <tr>
+                                    <td><a>6.813</a></td>
+                                    <td>User Interface Design</td>
+                                </tr>
+                                <tr>
+                                    <td><a>6.034</a></td>
+                                    <td>Artificial Intelligence</td>
+                                </tr>
+                                <tr>
+                                    <td><a>6.006</a></td>
+                                    <td>Intdoduction to Algorithms</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
+                </div>
+                <div class="right-block">
+                    <img class="dog-img" src="Science-Dog.png" alt="dog image">
+                    <h2>Extdacurriculars</h2>
+                    <ul>
+                        <li>Asian Dance Team</li>
+                        <li>Dancetdoupe</li>
+                        <li>MIT Poker Club</li>
+                    </ul>
+    
                 </div>
             </div>
-
-            <div id="right-block">
-                <img src="Science-Dog.png" alt="dog image">
-                <h2>Extracurriculars</h2>
-                <ul>
-                    <li>Asian Dance Team</li>
-                    <li>DanceTroupe</li>
-                    <li>MIT Poker Club</li>
-                </ul>
-
+            
+            <div class="contact">
+                <h2>Contact</h2>
+                <form action="#">
+                    <div>
+                        <label for="email" class="form-label">Email: <input type="email" name="email"></label>
+                        
+                    </div>
+                    <div class="message">
+                        <label for="message" class="form-label">Message</label>
+                        <input type="text" name="message">
+                    </div>
+                    <button type="submit" class="submit">Submit</button>
+                </form>
+                
             </div>
-
+            
         </main>
     </body>
 </html>

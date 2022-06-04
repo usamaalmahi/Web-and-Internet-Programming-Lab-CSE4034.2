@@ -1,0 +1,11 @@
+body{
+    font-family: sans-serif;
+}
+#left-block{
+    width: 58%;
+    display: inline-block;
+}
+#right-block{
+    width: 38%;
+    display: inline-block;
+}
